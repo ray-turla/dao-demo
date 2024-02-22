@@ -1,0 +1,24 @@
+export const DAO_CONFIG = {
+  TIMELOCK_MIN_DELAY: 60,
+  VOTING_DELAY: 6, // 1.1 minute
+  VOTING_PERIOD: 30, // 6 minutes
+  QUORUM_PERCENTAGE: 4,
+  ADDRESS_ZERO: "0x",
+  PROPOSALS_FILE: "proposals.json",
+}
+
+export const CONTRACT_ADDRESS = {
+  DAO_TOKEN: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  TIMELOCK: "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  DAO_GOVERNOR: "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+  TRAVEL_LOC: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"
+}
+
+export const DEV_CONFIG = {
+  PROPOSAL_ARGS: ["Boracay"],
+  PROPOSAL_DESCRIPTION: "Let's Go to Boracay",
+  PROPOSAL_FUNC: "store",
+  VOTE: 1,
+  VOTE_REASON: "White Sand Beach with Bitches",
+  CHAINS: ["hardhat", "localhost"]
+}
